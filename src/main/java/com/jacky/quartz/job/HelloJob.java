@@ -64,7 +64,7 @@ public class HelloJob implements Job {
 
         /**
          * 如果遇到同名的key，trigger中的.usingJobData("message","simple触发器")会覆盖JobDetail中
-         * 的.usingJobData("message","打印日志")
+         * 的.usingJobData("message","打印日志")。
          */
         //从setter方法中读取message的值
 //        System.out.println("参数值：" + message);
